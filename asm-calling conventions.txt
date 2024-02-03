@@ -1,0 +1,10 @@
+in x64 linux system  
+;  via RDI, RSI, RDX, RCX, R8, R9 and other are passed via stack
+
+in x64 windows sytem
+;shadow space - 32 ( for saving all 4 below regs + sizeof(extra stack size used)
+; via RCX, RDX, R8, R9 and other are passed via stack
+
+when passing struct / class - wrapp within #pragma pack(1) {struct / class} #pragma pack()
+
+====	
